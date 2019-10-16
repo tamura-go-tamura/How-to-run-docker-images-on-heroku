@@ -37,7 +37,7 @@ def callback():
 
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
-    if "ペン" or "パイナップル" or "パイナポー" or "アポー" in event.message.text:
+    if "ペン" in event.message.text:
         line_bot_api.reply_message(event.reply_token,TextSendMessage(text="PPAP!!!"))
     else:
         line_bot_api.reply_message(event.reply_token,TextSendMessage(text=event.message.text))
