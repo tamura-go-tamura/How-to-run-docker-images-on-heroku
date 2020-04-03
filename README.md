@@ -2,7 +2,9 @@
 
 適当に
 
-docker build -t hogehoge
+```terminal:sample
+   docker build -t hogehoge
+```
 
 みたいにimageをビルドする
 
