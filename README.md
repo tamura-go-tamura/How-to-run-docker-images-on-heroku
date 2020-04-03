@@ -10,7 +10,8 @@
 
 ほんで
 
-heroku container:push --app ppap-ppap　みたいにdockerimageをpush
-
-でOK!!!!
+```terminal:sample
+   heroku container:push --app <app名>
+```
+みたいにdockerimageをpushでOK!!!!
 
